@@ -3,7 +3,7 @@
 > **A modern landing page and dashboard interface for a digital kits subscription platform**
 
 A beautiful, responsive web application built with Next.js 15, TypeScript, and TailwindCSS. This project showcases modern React patterns, component composition, and UI design skills.
-Access the application here : kits-club.vercel.app
+**Access the application here:** [kits-club.vercel.app](https://kits-club.vercel.app)
 
 ## 🎯 Project Overview
 
