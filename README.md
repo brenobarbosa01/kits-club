@@ -8,7 +8,7 @@ A beautiful, responsive web application built with Next.js 15, TypeScript, and T
 
 Kits Club is a landing page and dashboard interface for a subscription-based platform that would deliver digital automation kits and templates. The project demonstrates frontend development skills with a focus on user experience and modern web design.
 
-### What's Actually Implemented
+### What's Implemented
 
 - **🎨 Landing Page** - Complete marketing website with multiple sections
 - **📱 Dashboard Interface** - User dashboard with mock data and interactions
