@@ -1,0 +1,43 @@
+name: Monthly Kit Release
+
+on:
+  schedule:
+    # Run on the 1st day of every month at 00:10 UTC
+    - cron: '10 0 1 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  release-kits:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+          
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        
+      - name: Trigger kit release
+        run: |
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -H "x-cron-secret: ${{ secrets.CRON_SECRET }}" \
+            "${{ secrets.APP_URL }}/api/cron/releases"
+            
+      - name: Notify on success
+        if: success()
+        run: |
+          echo "✅ Kit release job completed successfully"
+          echo "Timestamp: $(date)"
+          
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Kit release job failed"
+          echo "Timestamp: $(date)"
