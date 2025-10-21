@@ -31,39 +31,6 @@ Kits Club is a landing page and dashboard interface for a subscription-based pla
 - **TypeScript** - Type checking
 - **Turbopack** - Fast bundling
 
-## 🎨 Landing Page Sections
-
-The landing page includes these sections:
-
-- **Header** - Navigation and branding
-- **Hero Section** - Main value proposition
-- **Urgency Banner** - Call-to-action urgency
-- **Features Section** - Platform capabilities
-- **Pricing Section** - Subscription plans
-- **Testimonials** - Social proof
-- **Social Proof** - Trust indicators
-- **Stats Section** - Key metrics
-- **Comparison** - Competitive advantage
-- **How It Works** - Process explanation
-- **Benefits** - Value proposition
-- **FAQ** - Common questions
-- **Newsletter** - Email capture
-- **Final CTA** - Final conversion
-- **Footer** - Links and information
-
-## 📊 Dashboard Features
-
-The dashboard includes:
-
-- **Welcome Section** - Personalized greeting
-- **Stats Cards** - Key metrics display
-- **Recent Kits** - Latest available content
-- **Quick Actions** - Navigation shortcuts
-- **Progress Tracking** - User progress visualization
-- **Analytics Page** - Data visualization (placeholder)
-- **Calendar Page** - Schedule view (placeholder)
-- **Kits Page** - Content library (placeholder)
-
 ## 🚀 Getting Started
 
 ### Prerequisites
