@@ -111,8 +111,9 @@ The application is fully responsive with:
 ## 📞 Contact
 
 **Breno Barbosa**
+- E-mail: brenobarbosacosta2@gmail.com
 - GitHub: [@brenobarbosa01](https://github.com/brenobarbosa01)
-- LinkedIn: [Breno Barbosa](https://linkedin.com/in/brenobarbosa)
+- LinkedIn: [Breno Barbosa]([https://linkedin.com/in/brenobarbosa](https://www.linkedin.com/in/breno-barbosa-costa-a291131ba/))
 
 ---
 
